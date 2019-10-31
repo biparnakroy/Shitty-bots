@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shitty Bots</title>
+	<meta content="initial-scale=1" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151003621-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-151003621-1');
+	</script>
+
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			
+			$(document).ready(function(){
+			$("button.msg").click(function(){
+			if ($("#name").val()!=''&& $("#email").val()!='' && $("#subject").val()!=''&&$("#ms").val()!=''){
+			alert("Your message has been sent.");}
+			});
+		});
+		</script>
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">ShittyBots</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.1.jpeg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>ShittyBots.inc</h2>
+                <p>E.S.T.D. 2019</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.2.jpeg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>ShittyBots.inc</h2>
+                <p>E.S.T.D. 2019</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.3.jpeg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>ShittyBots.inc</h2>
+                <p>E.S.T.D. 2019</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/4.4.jpeg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>ShittyBots.inc</h2>
+                <p>E.S.T.D. 2019</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Who are we?</a></h4>
+            <p class="description">We are a group of tech enthusiasts driven by our love for technology in a mission to create some bad ass robots</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+           <a href="https://www.facebook.com/sb.jaduniv"> <i class="fa fa-rss"></i></a>
+            <h4 class="title"><a href="https://www.facebook.com/sb.jaduniv">Our Social Network</a></h4>
+            <p class="description"> We have prepared a stunning facebook page, follow us to keep updated.</p>
+			<a href="https://www.facebook.com/sb.jaduniv">visit >> </a>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="fa fa-github"></i>
+            <h4 class="title"><a href="https://github.com/Shitty-bots-Inc">Github</a></h4>
+            <p class="description">Check out our repositories, and contribute!</p>
+			<a href="https://github.com/Shitty-bots-Inc">visit >> </a>
+			
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+           <p>We are just a team of tech geeks who want to create something cool using robotics.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+			    To build a Bot that makes us worthy to be made into a movie by James Cameron or the Russo brothers.
+			  </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <b> <div class="text-center">Error 404 :: Not Found</div></b><br>
+			     <p> Actually we are still planning to make a plan.
+			  </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+			  To build Robots that work side by side with us to create a better future.<br>
+			  P.S. We also plan on building the Terminator 
+			  </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Support Us</h3>
+        <p>We can do much more if you help us, so feel free to donate</p>
+		<a class="cta-btn" href="https://www.patreon.com/_shittybots">Suport us</a>
+      </div>
+    </section><!-- #call-to-action -->
+
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Projects</h3>
+		  <p>Stay tuned, will be updated soon:)</p>
+        </header>
+
+        <div class="row">
+			
+          <div class="col-md-6">
+            <img src="img/bd.jpg" alt="project 1" class="img-fluid" height ="500" width="500">
+          </div>
+
+          <div class="col-md-6" >
+            <div class="details">
+              <h2>Dumb Bot</h2>
+               Dumb bot is a two wheel driven robot. It has two BO motors attached to its wheels which are operated via two double pole double throw switches(DPDT).
+			   This smalls little bot is highly decieving in its appearence. From the outside it looks like a small cute little bot but this bot
+			   juiced up with 5V 2A DC power source has a lot of power packed in a light weight chassis. Thus making is very maneuvering in tough places.
+			   
+			  
+            </div>
+          </div>
+		  <div class="col-md-6" >
+		  
+            <p>
+                <div id="skp_1"></div>
+            </p>
+            <img src="img/pf.jpg" alt="project 2" class="img-fluid" height ="500" width="500">
+          </div>
+          
+          <div class="col-md-6">
+              <p>
+                
+                </p>
+            <div class="details">
+                
+              <h2>Path Finder</h2>
+             The Path Finder is a Line follower Bot.It is designed to follow black track over white surface. At it's core it has an arduino uno board which acts as it's brains. As it's eyes it has two IR sensors. These sensors tell the robot if the surface beneath is white or black. The sensor has an IR blaster and an IR reciever.
+			 The infrared rays emitted by the IR blaster is reflected by the white surface, thus recieved by the IR receiver. Whereas in case of black surface the IR rays is absorbed and not reflected back and hence the IR reciever doesn't receive any signals. This property is used by the robot to detect if the surface underneath is black or white.            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header wow fadeInUp">
+          <h3>Team</h3>
+          <p>"If you can't feed your team with two pizzas, it's too large "<br><b>- Jeff Bezos</b> </p>
+        </div>
+	<center>
+		<div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Debojit Ghosh</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/debojit.ghosh.35325"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6  wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Debarghya Dutta</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/debarghya.dutta.73"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Pritam Biswas</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100027153531287"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-4.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Biparnak Roy</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/biparnak.roy"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-5.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Shubhadip Nandy</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/subhadip.nandy.50"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+		</div>
+	</center>
+      </div>
+	  
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <p>Theres no place like 127.0.0.1</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address> JUSL, LB Block, Sector III, Kolkata-700098</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+919775588256">+91 9775 5882 56</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:sb.jaduniv@gmail.com">sb.jaduniv@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLScY4d2XWKBST69L5h6H1_GPJNqdPf9-jJecDOS4WPWlQtje3A/formResponse" method="post" role="form" class="contactForm" target="hidden_iframe" onsubmit="return contactform.js">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="entry.13277444" class="form-control" id="name" placeholder="What shall we call you?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="entry.1319191346" class="form-control" name="email" id="email" placeholder="Your email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="entry.1284613534" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="entry.973952552" id="ms" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button class="msg" type="submit">Send</button></div>
+          </form>
+        </div>
+		
+
+      </div>
+    </section--><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Shitty Bots</h3>
+            <p>We are a group of tech enthusiasts driven by our love for technology in a mission to create some bad ass robots</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              B-73-80, Plot No.8,<br>
+			  Salt Lake, LB Block,<br>
+			  Sector III, Kolkata-700098<br>
+              West Bengal, India <br>
+              <strong>Phone:</strong> +91 9775 5882 56<br>
+              <strong>Email:</strong> sb.jaduniv@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+          
+              <a href="https://www.facebook.com/sb.jaduniv/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/shitty-bots" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			  <a href="https://github.com/Shitty-bots-Inc" class="github"><i class="fa fa-github"></i></a>
+            
+			</div>
+
+          </div>
+
+          <!--div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--div class="copyright">
+        &copy; Copyright <strong>ShittyBots</strong>. All Rights Reserved
+      </div-->
+      <div class="credits">
+		<br>
+        Made with <i style= "color: red; " class="fa fa-heart-o"> </i> by <a href="#">ShittyBots</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+  <script type="text/javascript">
+  (function () {
+      var options = {
+          facebook: "114097816678162", // Facebook page ID
+          email: "sb.jaduniv@gmail.com", // Email
+          call_to_action: "Hi there!", // Call to action
+          button_color: "#13bcd4", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "facebook,email", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
