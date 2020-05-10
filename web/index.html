@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +68,14 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#portfolio">Projects</a></li>
+          <li class="menu-has-children"><a href="#portfolio">Projects</a>
+            <ul>
+              <li><a href="#db">Dumb bot</a></li>
+              <li><a href="#pf">Path finder</a></li>
+              <li><a href="#moxa">Moxa</a></li>
+              <li><a href="#sb">Soccer Bot</a></li>
+            </ul>
+          </li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -265,7 +273,7 @@
 
         <div class="row">
 			
-          <div class="col-md-6">
+          <div class="col-md-6" id="db">
             <img src="img/bd.jpg" alt="project 1" class="img-fluid" height ="500" width="500">
           </div>
 
@@ -279,7 +287,7 @@
 			  
             </div>
           </div>
-		  <div class="col-md-6" >
+		  <div class="col-md-6" id="pf" >
 		  
             <p>
                 <div id="skp_1"></div>
@@ -299,6 +307,124 @@
           </div>
 
         </div>
+		
+		<div class="row">
+		<div class="col-md-12" id="moxa" >
+			<p></br></br>
+			</p>
+            <div class="details" >
+              <h2><u><center>MOXA</center></u></h2>
+              <h3><b> Problem Statement</b></h3>
+				With 413,467 confirmed cases, 197 countries under the attack of COVID-19. Maintaining
+				sanity and hygiene remains the only way to prevent and fight the spreading of this deadly
+				virus and making every individual aware of their sanitary health and ongoing COVID-19
+				epidemic and the upcoming epidemics.
+				</br></br>
+			   <h3><b> Existing Solution</b></h3>
+			   As suggested by medical practitioners, it is a necessity to wear a mask whenever you are
+			   at public places or places with probability of people gathering to prevent the spread of the
+			   virus if you are a carrier and even if not, it is safe to wear the mask. Till now the only way of monitoring the people if they are wearing the mask was manual.
+			   </br></br>
+			   <h3><b> Proposed Solution</b></h3>
+			   Hence to overcome this cumbersome process of manual monitoring of people wearing
+			  masks. We designed a real time monitoring technology to detect people wearing medical
+			  masks which can be done with the help of image processing, and deep learning. We have
+			  come up with an easily adaptable model which can detect the people wearing masks from
+			  the images or live feed fed to it. This can be used to classify places with higher or lower
+			  chances of transmission in case an active carrier enters that place and hence required
+			  measures can be taken to aware people of the emergency.
+			  </br></br>
+			  <h3><b>Working</b></h3>
+			  We designed and trained the YoLo model on a custom YoLoV3 dataset . The results
+			shown below were from the tests that we did on our model. Now this model can also be
+			used with a video further extending its applications. One such application that we had in
+			mind while building this, was CCTV cameras, outputting real time videos could be used with
+			our model to detect if the people in those areas are wearing masks or not.
+			</br></br>
+			Places such as banks, hospitals, government sectors, and even some traffic monitoring
+			systems come with CCTV cameras pre-installed. These are areas which receive a high
+			density of footfall, and thus become active sources of transmission. It is absolutely essential
+			that people use medical masks in these areas. If we use our model here, we can easily spot
+			people without masks in a shorter time span, thereby making this process very efficient.
+			  
+            </div>
+          </div>
+		  
+		  <div class="col-md-6">
+		  </br></br>
+		  <h3>Input Image:</h3>
+		  <img src="img/5_mask.jpg" class="img-fluid" height ="600" width="600">
+		  </div>
+		  <div class="col-md-6">
+		  </br></br>
+		  <h3>Output Image:</h3>
+		  <img src="img/download.png" class="img-fluid" height ="600" width="600">
+		  </br>
+		  </br>
+		  </div>
+		  
+		  <div class="col-md-12">
+		  </br></br>
+		  <h3><b>Why Moxa?</b></h3>
+		  </br>
+		  <h4><b>Highly Efficient Model</b></h4>
+		  It is humanly not possible to monitor thousands of people at all times to ensure whether
+		they are wearing a mask or not. Even to achieve 10% of this goal we would need huge man
+		power, which is not feasible to arrange in this situation. But with our system we can
+		continuously monitor large volumes of people with even a small team working remotely,
+		and store the demographic information which could be very helpful in mitigation of this
+		situation.
+		</br></br>
+		<h4><b>Cost Effective</b></h4>
+		Our model is extremely cost effective. As it is primarily dependent on the cameras that are
+		pre installed so the hardware requirement of this model is minimal.
+		</br></br>
+		<h3><b>Future Planes</b></h3>
+		As of now our neural network has been trained on the <a href="https://www.kaggle.com/vtech6/medical-masks-dataset/activity">Kaggle dataset of medical masks</a> ,
+		with a larger dataset we plan to further improve the performance and accuracy of this
+		model.</br></br>
+		We also plan to build an identification layer to find exactly the person not wearing the
+		masks, and storing the information in the database, primarily based on office applications.</br></br>
+		We can use this technology to monitor the industrial areas also as it is highly recommended
+		to use masks in those conditions which expands the projects usage further more from the
+		current COVID-19 pandemic. Similarly, this can also be extended to medical facilities,
+		pharmaceutical and food sector industries that require high hygienic conditions.
+		</br></br>
+		<a href="https://drive.google.com/file/d/1174GWNV8lad8ImchZ4d52zxQAuaBLGBt/view?usp=sharing" >
+		  <button type="button" class="btn btn-outline-primary">Download Abstract</button></a>
+		 </div>
+		</div>
+		</br>
+		</br>
+		</br>
+		</br>
+		<div class="row">
+		<div class="col-md-6" id="sb" >
+		  
+            <p>
+                <div id="skp_1"></div>
+            </p>
+            <img src="img/sb.jpeg" alt="project 2" class="img-fluid" height ="500" width="500">
+          </div>
+		<div class="col-md-6">
+              <p>
+                
+                </p>
+            <div class="details">
+                
+              <h2>Soccer Bot</h2>
+          Our soccer bot is driven with four 200 rpm BO motors, juiced with 4 apms 12 v power unit.
+		  This four wheel hornet might not be the most powerful in terms of torque but this thing
+          is freaking fast. The single moulded light weight stainless steel chassis makes this very 
+          durable and weight balance on this thing just mindblowing. All this make it really easy to 
+          drive, and once you hold its remote in its hands you just get addicted to it, the sharp crip
+          turns, the difficult manuvers this thing can pull off is bound to impress you. Our hornet might 
+          not be the most daunting in terms of its size but it can surely cause trouble for its opponents.
+		  </div>
+		
+		</div>
+		<br>
+		</br>
       </div>
 
 
@@ -312,13 +438,13 @@
       Team Section
     ============================-->
     <section id="team">
-      <div class="container">
+      <div class="container" >
         <div class="section-header wow fadeInUp">
           <h3>Team</h3>
           <p>"If you can't feed your team with two pizzas, it's too large "<br><b>- Jeff Bezos</b> </p>
         </div>
 	<center>
-		<div class="container">
+		<div class="container" >
         <div class="row">
 
           <div class="col-lg-3 col-md-6 wow fadeInUp">
@@ -388,6 +514,7 @@
               </div>
             </div>
           </div>
+		  
 		  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
               <img src="img/team-5.1.jpg" class="img-fluid" alt="">
@@ -398,6 +525,38 @@
                   <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href="https://www.facebook.com/subhadip.nandy.50"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		   <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-6.1.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Tamodip Das</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/iamtamodip"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		   <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-7.1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Pritthijit Nath</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/Pritthijit.Nath1"><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
@@ -565,7 +724,7 @@
   })();
 </script>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!--a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
@@ -589,5 +748,5 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
-</body>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
 </html>
